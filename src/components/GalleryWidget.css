@@ -9,7 +9,7 @@
         gap: 0px;
         opacity: 0px;
         box-shadow: 5.67px 5.67px 3.78px 0px #201e1eaf;
-        background: linear-gradient(327.89deg, #050608 -1.73%, #303133 89.26%);
+        background: linear-gradient(327.89deg, #050608 -1.73%, #48494c 89.26%);
     }
     
     .gallery {
@@ -75,7 +75,7 @@
     }
     
     .add-image-button:hover {
-        background-color: #898b8e;
+        background-color: #3e3b3b;
     }
     
     .arrow-button {
