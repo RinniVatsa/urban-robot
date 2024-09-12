@@ -1,7 +1,7 @@
     .gallery-widget {
         padding: 20px;
         border: 1px solid #716d6d;
-        border-radius: 8px;
+        border-radius: 50px;
         width: 652px;
         height: 475px;
         top: 436px;
@@ -128,12 +128,12 @@
         justify-content: center;
         align-items: center;
         border-radius: 50%;
-        border: 2px solid #babdbd;
+        border: 1px solid #888b8b;
         font-size: 18px;
         font-weight: bold;
         color: #dddddd;
         opacity: 1;
-        margin-top: -20px;
+        margin-top: 20px;
         background: linear-gradient(327.89deg, #4A4E54 -1.73%, #A3ADBA 89.26%);
     }
     

@@ -4,36 +4,39 @@
     height: 475px;
     top: 436px;
     left: 953px;
-    border-radius: 8px;
+    border-radius: 50px;
     border: 1px solid #716d6d;
     opacity: 1px;
     background: rgb(25, 26, 28);
     box-shadow: 5.67px 5.67px 3.78px 0px #0e0d0daf;
     background: linear-gradient(327.89deg, #2f2f34 -1.73%, #484b50 89.26%);
-    margin-top: 90px;
+    margin-top: 50px;
 }
 
 .tabs {
     display: flex;
     gap: 10px;
-    border-radius: 24px;
-    background-color: #26292c;
-    margin-top: -20px;
+    border-radius: 25px;
+    background-color: #040505;
+    margin-top: -40px;
+    margin-left: 40px;
+    border: 8px solid #000000;
 }
 
 .tabs button {
     padding: 10px 20px;
     cursor: pointer;
     border: none;
-    background-color: #2b2b2b;
-    border-radius: 50px;
+    background-color: #121111;
+    border-radius: 10px;
     color: white;
     transition: background-color 0.2s;
 }
 
 .tabs button.active {
-    background-color: #505253e7;
+    background-color: #505050e7;
     color: white;
+    cursor: pointer;
 }
 
 .tab-content p {
@@ -55,12 +58,14 @@
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    border: 2px solid #babdbd;
+    border: 1px solid #808282;
     font-size: 18px;
     font-weight: bold;
     color: #dddddd;
     opacity: 1;
-    margin-bottom: 30px;
+    background: linear-gradient(327.89deg, #4A4E54 -1.73%, #A3ADBA 89.26%);
+    cursor: pointer;
+    margin-top: 20px;
 }
 
 .flex-box-container {

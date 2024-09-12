@@ -6,7 +6,7 @@ const GalleryWidget = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
     const imagesPerPage = 3;
 
-    // Function to handle image uploads
+
     const handleFileUpload = (event) => {
         const files = Array.from(event.target.files);
         const newImages = files.map((file) => URL.createObjectURL(file));
@@ -20,18 +20,18 @@ const GalleryWidget = () => {
         }
     };
 
-    // Move to the previous slide
+
     const prevImages = () => {
         if (currentIndex > 0) {
             setCurrentIndex(currentIndex - 1);
         }
     };
 
-    // Static images array
+
     const staticImages = [
-        require('./Images/img1.jpeg'),
-        require('./Images/img2.jpeg'),
-        require('./Images/img3.jpg'),
+        require('./img1.jpeg'),
+        require('./img2.jpeg'),
+        require('./img2.jpeg'),
     ];
 
 

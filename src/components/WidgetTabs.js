@@ -6,6 +6,8 @@ const WidgetTabs = () => {
 
     return ( <
         div className = "widget-tabs" >
+
+
         <
         span className = "question-mark" > ? < /span> 
 
