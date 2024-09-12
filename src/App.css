@@ -1,9 +1,13 @@
 .App {
     display: flex;
-    height: 100vh;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    text-align: center;
-    background-color: rgb(143, 156, 156);
+    width: 100%;
+    max-width: 1200px;
+    box-sizing: border-box;
+    margin-top: -50px;
+    background-color: rgb(23, 21, 21);
 }
 
 .left-section {
@@ -32,4 +36,9 @@
     .right-section {
         width: 100%;
     }
+}
+
+.gallery-widget {
+    width: 100%;
+    max-width: 652px;
 }
