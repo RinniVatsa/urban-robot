@@ -7,7 +7,7 @@
         top: 436px;
         left: 953px;
         gap: 0px;
-        opacity: 0px;
+        opacity: 1px;
         box-shadow: 5.67px 5.67px 3.78px 0px #201e1eaf;
         background: linear-gradient(327.89deg, #050608 -1.73%, #48494c 89.26%);
     }
@@ -48,8 +48,9 @@
         box-shadow: 0px 4px 10px 2px rgba(188, 182, 182, 0.832) inset;
         text-align: center;
         justify-content: center;
-        width: 100px;
-        height: 22px;
+        text-indent: -10px;
+        vertical-align: middle;
+        width: 90px;
     }
     
     .add-gallery-button {
@@ -61,7 +62,7 @@
         font-family: Poppins;
         font-size: 18px;
         border-radius: 20px;
-        opacity: 0px;
+        opacity: 1px;
         color: #fffcfc;
         background: rgba(23, 23, 23, 1);
         box-shadow: 0px 4px 10px 2px rgba(106, 104, 104, 0.832) inset;
@@ -78,7 +79,7 @@
     }
     
     .add-image-button:hover {
-        background-color: #858583;
+        background-color: #a1a19f;
     }
     
     .arrow-button {
@@ -108,13 +109,12 @@
         margin-top: -20px;
         height: 45px;
         gap: -2px;
-        opacity: 0px;
+        opacity: 1px;
         top: 37px;
         left: 20px;
         border: 2px solid #6F787C;
         font-size: 23px;
         border-radius: 50px;
-        opacity: 0px;
         color: #c5c0c0;
         background: linear-gradient(139.14deg, #2b2f34 12.4%, #161718 94.96%);
         font-weight: bolder;
