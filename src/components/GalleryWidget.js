@@ -63,14 +63,6 @@ const GalleryWidget = () => {
         button className = "add-gallery-button" > Gallery < /button>
 
         <
-        input type = "file"
-        id = "image-upload"
-        accept = "image/*"
-        multiple onChange = { handleFileUpload }
-        style = {
-            { display: 'none' }
-        }
-        /> <
         label htmlFor = "image-upload"
         className = "add-image-button" >
         +Add Image <
