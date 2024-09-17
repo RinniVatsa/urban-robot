@@ -80,6 +80,7 @@
 .small-flexx-box {
     width: 9.31px;
     height: 9.31px;
+    gap: 20px;
     background: #505253;
     border-radius: 1.16px 0px 0px 0px;
     border: 1px solid #898484;
