@@ -1,15 +1,15 @@
 .widget-tabs {
     padding: 20px;
+    border: 1px solid #716d6d;
+    border-radius: 100px;
     width: 652px;
     height: 475px;
     top: 436px;
     left: 953px;
-    border-radius: 50px;
-    border: 1px solid #716d6d;
+    gap: 0px;
     opacity: 1px;
-    background: rgb(25, 26, 28);
-    box-shadow: 5.67px 5.67px 3.78px 0px #0e0d0daf;
-    background: linear-gradient(327.89deg, #2f2f34 -1.73%, #484b50 89.26%);
+    box-shadow: 5.67px 5.67px 3.78px 0px #201e1eaf;
+    background: linear-gradient(327.89deg, #050608 -1.73%, #48494c 89.26%);
     margin-top: 50px;
 }
 
@@ -41,13 +41,14 @@
 
 .tab-content p {
     margin-bottom: 30px;
-    font-family: Plus Jakarta Sans;
-    line-height: 25.2px;
+    font-family: Poppins, sans-serif;
+    line-height: 24px;
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 400;
     text-align: center;
     color: #cac1c1ba;
     text-indent: 50px;
+    text-size-adjust: 100%;
 }
 
 .question-mark {
